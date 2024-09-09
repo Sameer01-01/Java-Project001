@@ -168,6 +168,14 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
+.event-image {
+    width: 100%; /* Ensures the image spans the entire width of the card */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and is cropped if necessary */
+    border-radius: 10px 10px 0 0; /* Rounds the top corners of the image */
+    margin-bottom: 1.5rem; /* Adds space between the image and the text */
+}
+
 
 .event-card {
     background-color: #fff;
